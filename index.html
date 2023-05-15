@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/stylefooter.css">
+    <link rel="stylesheet" href="css\Navbar Home.css">
+    <script src="js\Navbar Home.js"></script>
+    <script src="js\homepage.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="navigation" id="navbar">
+              <div class="navigators" onclick="burger()">
+                  <img src="assets\images\burger.png" style="height: 6vh;">
+              </div>
+              <a href="index.html"  class="navigators">
+                      <img src="assets\images\LOGO W TEXT.png" style="height: 8vh;">
+              </a>
+      </div>
+      <div id="burger">
+          <a href="index.html"><div class="burgermenu"> Home </div></a>
+          <div class="burgermenu" id="burgermenu1" onclick="drpdwn1()"> Explore Batanes <span id="arrow1" class="arrow"></span> </div>
+              <div id="burgerdrpdwn1">
+                  <a href="Destinations.html"><div class="burgermenudrpdwn"> Destinations </div></a>
+                  <a href="Cuisine.html"><div class="burgermenudrpdwn"> Cuisine </div></a>
+              </div>
+          <div class="burgermenu" id="burgermenu2" onclick="drpdwn2()"> About <span id="arrow2" class="arrow"></span></div>
+              <div id="burgerdrpdwn2">
+                  <a href="history and culture.html"><div class="burgermenudrpdwn"> History and Culture </div></a>
+                  <a href="ivatans.html"><div class="burgermenudrpdwn"> The Ivatans </div></a>
+                  <a href="faqs.html"><div class="burgermenudrpdwn"> Frequently Asked Questions</div></a>
+              </div>
+          <a href="https://www.vigattintourism.com/tourism/articles/The-Beautiful-Province-of-Batanes-Home-of-the-Winds"><div class="burgermenu"> Articles </div></a>
+          <a href="http://www.maplandia.com/philippines/region-2/batanes/"><div class="burgermenu"> Map </div></a>
+          <a href="https://guidetothephilippines.ph/trips-and-experiences/batanes-packages"><div class="burgermenu"> Vacation Packages </div></a>
+          <a href="https://www.klook.com/en-PH/promo/ph-worththewait/"><div class="burgermenu"> Book a Flight </div></a>
+      </div>
+  </header>
+
+  <div class="fr">
+    <div class="batanes">
+      <video autoplay loop muted plays-inline class="background-video">
+        <source src="assets/videos/homepage/Batanes Hompage Video.mp4">
+      </video>
+      <div class="content">
+        <div>
+        <h2>Discover the Untouched Beauty of Batanes</h2>
+        <h1>WHERE TIME STANDS STILL</h1>
+        </div>
+        <form>
+          <input class="search-text" type="text" placeholder="Search..." name="box ">
+          <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+      </div>
+    </div>
+    </div>
+
+    <section class="highlight" id="highlight">
+      <div class="highlight-heading">
+        <h2>HIGHLIGHTS</h2>
+      </div>
+      <div class="highlight-content">
+        <div class="rowa">
+          <a href="https://blog.tours4fun.com/7-reasons-why-you-will-fall-in-love-with-batanes.html">
+            <img src="assets/images/Homepage/Highlights Image/Picture1.png" alt="1">
+            </a>
+          <div class="main-row">
+            <div class="row-text">
+              <h6>7 Reasons Why You Will Fall in Love with Batanes</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>The beauty of the place will make your heart jump for joy. Batanes is peaceful and laid-back, the perfect retreat where you can sit back, relax, and enjoy the cool breeze and the heat of the sun.</h3>
+        </div>
+        <div class="rowa">
+          <p><a href="https://katongkidsinc.com/2021/02/13/why-batanes-philippines-is-the-best-post-covid-destination/">
+            <img src="assets/images/Homepage/Highlights Image/Picture2.png" alt="2">
+            </a></p> 
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Why Batanes is the Post-COVID Destination</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>You’ve had plenty of peace and quiet at home in quarantine. However, peace and quiet in Batanes is different.</h3>
+        </div>
+        <div class="rowa">
+          <p><a href="https://www.arapatria.com/interesting-facts-about-batanes/">
+            <img src="assets/images/Homepage/Highlights Image/Picture3.png" alt="3">
+            </a></p>
+          <div class="main-row">
+            <div class="row-text">
+              <h6>5 Interesting Facts about Batanes</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Batanes is the northernmost part and the smallest island of the Philippines. Despite being the smallest island, it boasts a lot of breathtaking views and fascinating culture and traditions.</h3>
+        </div>
+        <div class="rowa">
+          <p><a href="https://primer.com.ph/travel/2019/08/10/basco-lighthouse-in-batanes-the-famed-six-story-conical-tower/">
+            <img src="assets/images/Homepage/Highlights Image/Picture4.png" alt="4">
+            </a></p>
+          <div class="main-row">
+            <div class="row-text">
+              <h6>Basco Lighthouse in Batanes: The Famed Six-Story Conical Tower</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Standing 66 feet on top of Naidi Hill is the famed Basco Lighthouse, constructed in 2002 as a navigational facility to guide seafarers back to the shore.</h3>
+        </div>
+        <div class="rowa">
+          <p><a href="https://sarisaristorybooks.com/2014/03/07/201437an-ivatan-folktale-duchnarbaan-where-someone-fell/">
+            <img src="assets/images/Homepage/Highlights Image/Picture5.png" alt="5">
+            </a></p> 
+          <div class="main-row">
+            <div class="row-text">
+              <h6>An Ivatan Folktale: Duch narbaan (Where Someone Fell)</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>From Itbayat Folktales, collected by Professor Yukihiro Yamada and introduced by Celerina Mirabueno Navarro</h3>
+        </div>
+        <div class="rowa">
+          <p><a href="https://www.esquiremag.ph/long-reads/features/coconut-crab-batanes-a00293-20210922">
+            <img src="assets/images/Homepage/Highlights Image/Picture6.png" alt="6">
+            </a></p>
+          <div class="main-row">
+            <div class="row-text">
+              <h6>The Endangered Delish Coconut Crabs of Batanes</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>The largest invertebrate in the world, the coconut crab (Birgus latro), is a delicacy in Batanes. </h3>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="explore">
+      <div class="wrapper">
+        <h2>EXPLORE</h2>
+        <h6><a href="history and culture.html">Take me there ></a></h6>
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Torongan Cave.png" alt="img" draggable="false"></div>
+            <h2>Torongan Cave, Itbayat</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets\images\Homepage\Batanes1945.png" alt="img" draggable="false"></div>
+            <h2>Batanes, 1945</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/UNESCOWorldHeritage.png" alt="img" draggable="false"></div>
+            <h2>UNESCO World Heritage</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Palu-Palo Festival.png" alt="img" draggable="false"></div>
+            <h2>Palu-Palo Festival</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Bond.png" alt="img" draggable="false"></div>
+            <h2>Strong familial bonds</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Marriage.png" alt="img" draggable="false"></div>
+            <h2>Marriage</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Ube.png" alt="img" draggable="false"></div>
+            <h2>Ube</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Burial Jar.png" alt="img" draggable="false"></div>
+            <h2>Burial Jar</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Mountain Village.png" alt="img" draggable="false"></div>
+            <h2>Mountain Village</h2>
+            <span></span>
+          </li>
+          <li class="card">
+            <div class="img"><img src="assets/images/Homepage/Limestone House.png" alt="img" draggable="false"></div>
+            <h2>Limestone Ivatan House</h2>
+            <span></span>
+          </li>
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>  
+    </div>
+
+    <div class="dito">
+      <div class="main">
+        <div class="about-ivatan">
+          <h2>THE IVATANS</h2>
+          <p>The northernmost Philippine islands of Batanes and Babuyan are home to the Austronesian ethnolinguistic group known as the Ivatan people. They share close linguistic and cultural links with the Tao people of Taiwan's Orchid Island and are genetically connected to other ethnic groups in Northern Luzon. The characteristics of the Ivatans are described as being sturdy and hardworking, but also peaceful, God-loving, honest, resilient, helpful, happy, and gentle. These characteristics were undoubtedly formed by the environment, religion, education, and their particular evolution as individuals.</p>
+          <button onclick="window.location.href = 'ivatans.html';">See More</button>
+        </div>
+        <div class="vid">
+        <video src="assets/videos/homepage/The Ivatans.mp4" autoplay muted controls loop></video>
+        </div>
+      </div>
+    </div>
+
+    <div>
+    <section class="destination" id="destination">
+      <div class="destination-heading">
+        <h2>DESTINATIONS</h2>
+        <h6><a href="Destinations.html">Take me there ></a></h6>
+      </div>
+      <div class="destination-content">
+        <div class="rows">
+          <img src="assets/images/Homepage/Destination Image/Naidi Hills.jpeg" alt="Naidi Hills">
+          <h3>Naidi Hills</h3>
+        </div>
+        <div class="rows">
+          <img src="assets/images/Homepage/Destination Image/Honesty of Coffee Shop.jpg" alt="Honesty of Coffee Shop">
+          <h3>Honesty of Coffee Shop</h3>
+        </div>
+        <div class="rows">
+          <img src="assets/images/Homepage/Destination Image/Mt. Iraya.jpg" alt="Mt. Iraya">
+          <h3>Mt. Iraya</h3>
+        </div>
+        <div class="rows">
+          <img src="assets/images/Homepage/Destination Image/Mt. Matarem.jpg" alt="Mt. Matarem">
+          <h3>Mt. Matarem</h3>
+        </div>
+        <div class="rows">
+          <img src="assets/images/Homepage/Destination Image/San Jose Church.jpg" alt="San Jose Church">
+          <h3>San Jose Church</h3>
+        </div>
+        <div class="rows">
+          <img src="assets/images/Homepage/Destination Image/Valugan Bay.jpg" alt="Valugan Bay">
+          <h3>Valugan Bay</h3>
+        </div>
+      </div>
+    </section> 
+    </div>
+
+
+    <div>
+      <div id="cuisine">
+        <img src="assets\images\Homepage\Cuisine Image.png">
+        <div class="cuisinecontent">
+          <h1>Indulge the Taste</h1>
+          <h2>Mouthwatering dishes just for you.</h2>
+            <button class="cuisinebutton" onclick="window.location.href = 'cuisine.html';">See More</button>
+        </div>
+      </div> 
+    </div>
+
+
+    <div class="faq-body">
+      <div class="accordion">
+        <div class="image-box">
+          <img src="assets/images/Homepage/FAQs.png" alt="Accordion Image">
+        </div>
+        <div class="accordion-text">
+          <a href="faqs.html"><div class="title">FAQs</div></a>
+        <ul class="faq-text">
+          <li>
+            <div class="question-arrow">
+              <span class="question">Who are allowed to go to Batanes?</span>
+              <i class="bx bxs-chevron-down arrowa"></i>
+            </div>
+            <p>Only travelers who are fully vaccinated may enter Batanes for leisure purposes. Those ineligible for vaccination need to present proof of ineligibility like a medical certification or a birth certificate for children below 5 years old.</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">What are the entry points in Batanes?</span>
+              <i class="bx bxs-chevron-down arrowa"></i>
+            </div>
+            <p>The main entry point in Batanes is Basco Airport, located in the province’s capital. Most Philippine flights booked online to Basco Airport are from Manila.</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">What travel requirements do you need to prepare?</span>
+              <i class="bx bxs-chevron-down arrowa"></i>
+            </div>
+            <p>Here are the requirements that you need to prepare before going to Batanes:</p>
+            <p>a.	Get a vaccination card or vaccination certificate (for fully-vaccinated)</p>
+            <p>b.	You need to show proof of your fully vaccinated status, and the Batanes local government unit accepts a valid vaccination card or a vaccination certificate from vaxcert.doh.gov.ph</p>
+            <p>c.	Secure proof of ineligibility for a COVID-19 vaccination (for unvaccinated)</p>
+            <p>d.	Parents or guardians of children below 5 years old need to present the birth certificate of their child to prove ineligibility. Those with medical conditions need to present a medical certificate.</p>
+            <p>e.	Book accommodations and tours with DOT-accredited establishments</p>
+            <p>f.	Prior reservation with any of the DOT-accredited Batanes hotels and resorts is a must, as well as booking with DOT-accredited tour operators. Do-it-yourself tours are not allowed. It's recommended to book airport transfers as well for a hassle-free arrival and departure.</p>
+            <span class="line"></span>
+          </li>
+          <li>
+            <div class="question-arrow">
+              <span class="question">What are the guidelines and protocols to follow when you're in Batanes?</span>
+              <i class="bx bxs-chevron-down arrowa"></i>
+            </div>
+            <p>All residents and tourists must wear face masks, wash hands regularly, and practice proper social distancing, especially in public establishments, to help reduce the risk of community transmission of COVID-19 disease.</p>
+            <p>Arrival protocols</p>
+            <p>All tourists will undergo health screening upon arrival. Those exhibiting symptoms will be tested for free, and those who test positive for COVID-19 will be isolated in a government facility.</p>
+            <p>Tour protocols</p>
+            <p>Tourists are strongly discouraged from mingling with locals who are not part of their Batanes itinerary.</p>
+            <span class="line"></span>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-dark">
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Municipalities</h3>
+                      <ul>
+                          <li><a href="http://www.rdc2.gov.ph/invest/batanes/index.php/municipalities/basco">Basco</a></li>
+                          <li><a href="http://www.rdc2.gov.ph/invest/batanes/index.php/municipalities/itbayat">Itbayat</a></li>
+                          <li><a href="http://www.rdc2.gov.ph/invest/batanes/index.php/municipalities/ivana">Ivana</a></li>
+                          <li><a href="http://www.rdc2.gov.ph/invest/batanes/index.php/municipalities/mahatao">Mahatao</a></li>
+                          <li><a href="http://www.rdc2.gov.ph/invest/batanes/index.php/municipalities/sabtang">Sabtang</a></li>
+                          <li><a href="http://www.rdc2.gov.ph/invest/batanes/index.php/municipalities/uyugan">Uyugan</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-6 col-md-3 item">
+                      <h3>Official Government Links</h3>
+                      <ul>
+                          <li><a href="https://sites.google.com/tesda.gov.ph/tesda-batanes-official-website/home">Batanes Provincial Office</a></li>
+                          <li><a href="https://cmci.dti.gov.ph/prov-profile.php?prov=Batanes&year=2020">DTI Batanes Province Profile</a></li>
+                          <li><a href="http://www.region2fun.ph/batanes-province/">Region 2-Batanes</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-6 item text">
+                      <h3>Official Government</h3>
+                      <p>
+                          Batanes is headed by Provincial Governor Marilou Cayco and Vice Governor Ignacio Villa. 
+                          The Batanes Provincial Board, also known as the Sangguniang Panlalawigan, serves as its provincial legislature. 
+                          The presidents of the provincial chapters of the Association of Barangay Captains, the Councilors' League, and the provincial president of Sangguniang Kabataan are also ex officio members. 
+                      </p>
+                  </div>
+                  <div class="col item social">
+                      <a href="https://www.facebook.com/BatanesProvincee/"><i class="icon ion-social-facebook"></i></a>
+                      <a href="http://www.rdc2.gov.ph/invest/batanes/index.php"><i class="icon ion-social-google"></i></a>
+                  </div>
+              </div>
+              <p class="copyright">Lalawigan ng Batanes © 2023</p>
+          </div>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

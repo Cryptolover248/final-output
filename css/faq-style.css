@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-link {
+    font-size: 1rem;
+    color: #000000;
+    text-decoration: none;
+  }
+
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    /*background: linear-gradient(to right, #DED6C9 0%, #6abeda 100%); */
+    background-color: white;
+
+
+}
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+    color: #6EBB2D;   
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
+    column-gap: 20px;
+}
+.hr-line{
+  width: 60%;
+  margin: auto;
+  
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-question {
+    /* background-color: #eee; */
+    color: #444;
+    cursor: pointer;
+    padding: 30px 20px;
+    width: 60%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    margin: auto;
+    font-size: 20px;
+    
+
+}
+.faq-answer{
+    margin: auto;
+    /* text-align: center; */
+   width: 50%;
+   padding: auto;
+   align-items: center;
+   text-align: justify;
+}
+.faq-answer ol {
+  margin-left: 2vw;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-question:hover {
+    color: #6EBB2D;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-answer {
+  width: 800px;
+  height: 100%;
+  font-size: 20px;
+    padding: 0 18px;
+    /*background-color: white; */
+    display: none;
+    overflow: hidden;
+    /* Set the perspective */
+  perspective: 1000px;
+  /* Set the 3D transform */
+  transform: rotatex(-20deg);
+  /* Add a box shadow */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.hr-line{
+    width: 60%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.faq-question:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
+
+  .faq-question {
+    font-size: 20px;
+    width: 80%;
+  }
+
+ .faq-answer {
+    width: 80%;
+    justify-content: center;
+  }
+
+  .hr-line{
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+}
+}

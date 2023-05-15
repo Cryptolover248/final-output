@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: "Poppins";
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 98;
+}
+.navigation {
+    background-color: #136912;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+.navigators {
+    height: 100%;
+    padding: 3vh;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+#burger a:hover .burgermenu, #burger a:hover {
+    text-decoration: none;
+    color: #136912;
+}
+#burger {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    width: 100vw;
+    overflow-y: scroll;
+    text-align: center;
+    height: 85vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
+}
+#burger::-webkit-scrollbar, body::-webkit-scrollbar {display: none;}
+#burgerdrpdwn {
+    display: none;
+}
+#burgerdrpdwn1, #burgerdrpdwn2 {
+    display: none;
+}
+div.burgermenudrpdwn {
+    width: 100vw;
+    height: auto;
+    padding: 4vh 3vw; 
+}
+div.burgermenu, div.burgermenuactive {
+    width: 100vw;
+    height: auto;
+    padding: 4vh 4vw;
+    font-weight: bold;  
+}
+
+div.burgermenu, div.burgermenuactive, div.burgermenudrpdwn, .navigators {
+    transition-duration: 0.4s;
+}
+div.burgermenu:hover, div.burgermenuactive, div.burgermenudrpdwn:hover {
+    background-color: #d3d3d3;
+}
+div.burgermenuactive, div.burgermenu:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.navigators:hover {
+    background-color: #0e4c0d;
+}
+.arrow {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    margin-left: 0.38em;
+    transform: rotate(-225deg);
+    margin-top: 4px;
+    transition-duration: 0.4s;
+}
+.arrowactive {
+    width: 0.5em;
+    height: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 0.15em solid currentColor;
+    border-bottom: 0.15em solid currentColor;
+    margin-left: 0.38em;
+    margin-top: -0.25em;
+    transform: rotate(-45deg);
+    transition-duration: 0.4s;
+}
+
+@media only screen and (min-width: 640px) {
+div.burgermenu, div.burgermenuactive {
+    width: 20vw;
+}
+div.burgermenudrpdwn {
+    width: 20vw;
+}
+#burger {
+    width: 20vw;
+    text-align: left;
+}
+}

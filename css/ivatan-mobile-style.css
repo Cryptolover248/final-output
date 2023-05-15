@@ -1,0 +1,106 @@
+body {
+	font-family: Poppins;
+	background-color:  rgb(237, 240, 214);
+  color: black;
+}
+
+#content #mainContent h1, #content #mainContent h2 {
+  display: flex !important;
+  justify-content: center;
+}
+#content #mainContent h3 {
+	/*Captions ot Taglines */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	color: rgba(146,146,146,1.00);
+}
+#content #mainContent #bannerImage {
+	/*Container for main banner image */
+	width: 100%;
+	background-color: rgba(208,207,207,1.00);
+}
+#content #mainContent p {
+	/* All paragraphs under maincontent */
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	text-align: justify;
+}
+
+#mainContent {
+	/* Container for the blog post in individal blog view */
+	padding-left: 2%;
+	width: 71%;
+	float: left;
+	padding-right: 2%;
+	padding-top: 41px;
+}
+#mainwrapper {
+	/* Container of all content */
+	width: 80%;
+	overflow: auto;
+	margin-left: 10%;
+}
+
+
+.notOnDesktop {
+	/*element to be displayed only in mobile view and tabet view */
+	display: none;
+}
+#mainContent #bannerImage img {
+	/* Actual banner image */
+	width: 100%;
+}
+
+div#mainwrapper a {
+  overflow: hidden;
+  display: block;
+  padding: 1vh ;
+  background: #efecdb;
+  box-shadow: 0 10px 50px #5f2f1182;
+  position: relative;
+}
+
+
+/* Tablet view */
+@media screen and (max-width:769px) {
+.notOnDesktop {
+	/* Search box shown only in mobile view and Tablet view */
+	text-align: right;
+	padding-right: 8px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 96%;
+}
+#content .notOnDesktop input {
+	height: 28px;
+}
+#mainContent {
+	/* Container for the blog post */
+	padding-top: 0px;
+	float: none;
+	width: 96%;
+}
+}
+
+/* Mobile view */
+@media screen and (max-width:480px) {
+
+#content .notOnDesktop {
+	/* Search box shown only in mobile and tablet view */
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#content .notOnDesktop input {
+	width: 80%;
+	text-align: center;
+}
+#content #mainContent h3 {
+	/* Title under maincontent, if any */
+	font-size: 14px;
+}
+
+}

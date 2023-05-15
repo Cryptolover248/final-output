@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js\Navbar.js"></script>
+        <link rel="stylesheet" href="css\Navbar.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="navigation">
+                    <div class="navigators" onclick="burger()">
+                        <img src="assets\images\burger.png" style="height: 6vh;">
+                    </div>
+                    <a href="#"  class="navigators">
+                            <img src="assets\images\LOGO W TEXT.png" style="height: 8vh;">
+                    </a>
+            </div>
+            <div id="burger">
+                <a href="#"><div class="burgermenu"> Home </div></a>
+                <div class="burgermenu" id="burgermenu1" onclick="drpdwn1()"> Explore Batanes <span id="arrow1" class="arrow"></span> </div>
+                    <div id="burgerdrpdwn1">
+                        <a href="#"><div class="burgermenudrpdwn"> Destinations </div></a>
+                        <a href="#"><div class="burgermenudrpdwn"> Cuisine </div></a>
+                    </div>
+                <div class="burgermenu" id="burgermenu2" onclick="drpdwn2()"> About <span id="arrow2" class="arrow"></span></div>
+                    <div id="burgerdrpdwn2">
+                        <a href="#"><div class="burgermenudrpdwn"> History and Culture </div></a>
+                        <a href="#"><div class="burgermenudrpdwn"> The Ivatans </div></a>
+                        <a href="#"><div class="burgermenudrpdwn"> Frequently Asked Questions</div></a>
+                    </div>
+                <a href="#"><div class="burgermenu"> Articles </div></a>
+                <a href="#"><div class="burgermenu"> Map </div></a>
+                <a href="#"><div class="burgermenu"> Vacation Packages </div></a>
+                <a href="#"><div class="burgermenu"> Book a Flight </div></a>
+            </div>
+        </header>
+    </body>
+</html>

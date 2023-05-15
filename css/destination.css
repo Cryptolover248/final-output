@@ -1,0 +1,337 @@
+*{
+    scroll-behavior: smooth;
+    text-align: justify;
+}
+
+
+.background{
+    background-image:url(https://hiketomountains.com/wp-content/uploads/2022/09/Batanes-Tour-2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+.wrapper{
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+
+}
+
+.wrapper h2{
+    padding: 30px 10px 20px;
+    font-size: 50px;
+    line-height: 44px;
+    color: #fff;
+}
+
+.wrapper h3{
+    padding: 20px 10px 10px;
+    font-size: 30px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.ruins{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.diura{
+    background-color: #1369125e;
+}
+
+.racuh{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.old{
+    background-color: #1369125e;
+}
+
+.dakkay{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.matarem{
+    background-color: #1369125e;
+}
+
+.coffee{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.san-jose{
+    background-color: #1369125e;
+}
+
+.chawa{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.san-carlos{
+    background-color: #1369125e;
+}
+
+.valugan{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.naidi{
+    background-color: #1369125e;
+}
+
+.iraya{
+    width: 100%;
+    background-color: #3c8ca75f;
+}
+
+.sabtang{
+    background-color: #1369125e;
+}
+
+.wrapper p{
+    padding: 0px 30px 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.wrapper img{
+    width: 100%;
+}
+
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+}
+.scrollTop:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.scrollTop.active{
+    opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+    .wrapper{
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .wrapper h2{
+        padding: 20px 0px 0px;
+    }
+    
+    .wrapper p{
+        padding: 20px 10px 20px;
+    }
+    
+    .wrapper img{
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .wrapper{
+        width: 1280px;
+    }
+
+    .wrapper h2{
+        font-size: 60px;
+        padding: 20px 10px;
+    }
+    
+   .wrapper h3{
+        font-size: 30px;
+        font-weight: bold;
+   }
+    
+    .wrapper p{
+        font-size: 25px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: center;
+        line-height: 40px;
+    }
+    
+    .wrapper img{
+        padding-top: 0px;
+        width: 50%;
+    }
+    
+    article{
+        transition: 0.3s;
+    }
+    
+    article:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    .ruins{
+        padding-top: 5px;
+        padding-bottom: 25px;
+    }
+
+    .ruins img{
+        float: right;
+        margin-left: 15px;
+    }
+
+    .diura{
+        padding-top: 5px;
+        padding-bottom: 103px;
+    }
+
+    .diura img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .racuh{
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    .racuh img{
+        float: right;
+        height: 38vh;
+        margin-left: 15px;
+    }
+
+    .old{
+        padding-top: 5px;
+        padding-bottom: 40px;
+    }
+
+    .old img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .dakkay{
+        padding-top: 5px;
+        padding-bottom: 135px;
+    }
+
+    .dakkay img{
+        float: right;
+        margin-left: 15px;
+    }
+
+    .matarem{
+        padding-top: 5px;
+        padding-bottom: 170px;
+    }
+
+    .matarem img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .coffee{
+        padding-top: 5px;
+        padding-bottom: 130px;
+    }
+
+    .coffee img{
+        float: right;
+        margin-left: 15px;
+    }
+
+    .san-jose{
+        padding-top: 5px;
+        padding-bottom: 210px;
+    }
+
+    .san-jose img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .chawa{
+        padding-top: 5px;
+        padding-bottom: 225px;
+    }
+
+    .chawa img{
+        float: right;
+        margin-left: 15px;
+    }
+
+    .san-carlos{
+        padding-top: 5px;
+        padding-bottom: 163px;
+    }
+
+    .san-carlos img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .valugan{
+        padding-top: 5px;
+        padding-bottom: 90px;
+    }
+
+    .valugan img{
+        float: right;
+        margin-left: 15px;
+    }
+
+    .naidi{
+        padding-top: 5px;
+        padding-bottom: 53px;
+    }
+
+    .naidi img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .iraya{
+        padding-top: 5px;
+        padding-bottom: 128px;
+    }
+
+    .iraya img{
+        float: right;
+        margin-left: 15px;
+    }
+
+    .sabtang{
+        padding-top: 5px;
+        padding-bottom: 65px;
+    }
+
+    .sabtang img{
+        float: left;
+        margin-right: 15px;
+    }
+
+}

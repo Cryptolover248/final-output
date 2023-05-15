@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    background-color: rgb(237, 240, 214);
+    font-family: poppins;
+}
+
+.main {
+    width: 80vw;
+    margin: 5vh auto;
+}
+.left {
+    width: 100%;
+}
+.section {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5vh;
+    padding: 2vh 2vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.main p {
+    text-align: justify;
+    text-indent: 5%;
+}
+h1.title     {
+    text-align: center;
+    margin-top: 5vh;
+    color: black;
+    font-size: 5vw
+}
+.main h3 {
+    text-align: justify;
+    font-size: large;
+}
+.main a {
+    text-decoration: none;
+    color: black;
+}
+.main a:hover {
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+figcaption {
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+}
+.sidebar {
+    width: 100%;
+    margin-top: 5vh;
+    height: 100%;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+figure img{
+    height: 500%;
+}
+.sticky{
+    padding: 2vh 2vw;
+}
+.sidebarcontent {
+    margin-bottom: 5vh;
+}
+.sidebarcontent h3 {
+    transition-duration: .4s;
+}
+.sidebarcontent a:hover h3{
+    color: #136912;
+}
+
+@media screen and (min-width: 640px) {
+.main {
+    display: flex;
+    flex-direction: row;
+}
+.content {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.fix {
+    display: block;
+}
+.c60 {
+    width: 60%;
+    height: auto;
+
+}
+.c40 {
+    width: 40%;
+    height: auto;
+
+}
+.left {
+    width: 70%;
+}
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+*::-webkit-scrollbar {
+    display: none;
+}
+.sidebar {
+    width: 30%;
+    display: flex;
+    height: 75vh;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 2vw;
+    margin-top: 0;
+    top: 20vh;
+    right: 0;
+    left: 0;
+    position: sticky;
+}
+.sticky {
+    position: absolute;
+    overflow-y: scroll;
+    height: 100%;
+
+}
+.imgright {
+    margin-left: 2vw;
+    float: right;
+}
+.imgleft {
+    margin-right: 2vw;
+    float: left;
+}
+}
